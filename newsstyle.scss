@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;;
+}
+
+.bg{
+    color:#fff;  
+
+    display: flex;
+    flex-flow: column; 
+}
+
+header{
+    display: flex;   
+    flex-flow: column; 
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 120px;
+
+.logo{
+    margin:0 auto;
+    width: 210px;
+    padding: 5px;
+    margin-bottom: 25px;
+
+    background-color: red; 
+
+    h1{      
+        font-size: 52px;
+    } 
+ 
+}
+   
+h2{
+    color:black;
+}
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    left: 89%;
+    color:black;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 2%;
+    color:black;
+}
+.swiper-button-next, .swiper-button-prev{
+    top:45%;
+}
+
+
+article{
+    margin-bottom: 50px;
+
+.image-slider{
+    padding-left: 100px;
+
+.swiper-slide{
+    padding-right: 100px;
+}
+
+
+img{
+    max-width:430px;
+    max-width:100%;
+
+}
+}
+}
+
+.news{
+    p,h2,h3{
+        margin-top: 10px;
+    }
+    margin:10px;
+    color:black;
+
+}
+
+nav{    
+    background-color:black;
+    margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+a{    
+    height: 70px;
+    width: 150px;
+
+    text-decoration: none;
+    color:white;
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    background-color:red;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+article{
+    margin-bottom: 100px;
+}
+    .image-slider{
+        margin-left:9% ;
+        img{
+            width: 30%;
+            
+        }
+    }
+
+    nav{
+
+        background-color:white;
+        a{
+            color:black;
+            height: 70px;
+            width: 70px;
+
+        }
+    }
+
+    .news{
+        position:absolute;
+        right:22%;
+        top:23%;
+        width: 25%;
+    }
+
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        left: 42%;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+        left: 9%;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        top:45%;
+    }
+}
